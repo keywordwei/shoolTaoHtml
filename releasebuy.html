@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>发布求购</title>
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/xiaoyuantao.css">
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/xiaoyuantao.js"></script>
+</head>
+<body>
+    <header class="home-header">
+        <div class="home-nav">
+            <div class="home-logo "><img src="images/logo.png" alt=""></div>
+            <div class="home-navigation">
+                <ul class="clearfix firstmenuhover">
+                    <li><a href="index.html">首页</a></li>
+                    <li class="home-dialogmenu">
+                        <a href="find.html" >发现
+                        </a>
+                        <ul class="home-secondmenu clearfix">
+                            <li><a href="#">代步工具</a>&nbsp;|&nbsp;</li>
+                            <li><a href="#">手机</a>&nbsp;|&nbsp;</li>
+                            <li><a href="#">电脑</a>&nbsp;|&nbsp;</li>
+                            <li><a href="#">数码</a>&nbsp;|&nbsp;</li>
+                            <li><a href="#">电器</a>&nbsp;|&nbsp;</li>
+                            <li><a href="#">衣鞋雨帽</a>&nbsp;|&nbsp;</li>
+                            <li><a href="#">书籍教材</a>&nbsp;|&nbsp;</li>
+                            <li><a href="#">体育健身</a>&nbsp;|&nbsp;</li>
+                            <li><a href="#">乐器</a>&nbsp;|&nbsp;</li>
+                            <li><a href="#">自行设计</a>&nbsp;|&nbsp;</li>
+                            <li><a href="#">其他</a></li>
+                        </ul>
+                    </li>
+                    <li  class="home-dialogmenu">
+                        <a href="buying.html">求购
+                        </a>
+                        <ul class="home-secondmenu clearfix">
+                            <li><a href="#">代步工具</a>&nbsp;|&nbsp;</li>
+                            <li><a href="#">手机</a>&nbsp;|&nbsp;</li>
+                            <li><a href="#">电脑</a>&nbsp;|&nbsp;</li>
+                            <li><a href="#">数码</a>&nbsp;|&nbsp;</li>
+                            <li><a href="#">电器</a>&nbsp;|&nbsp;</li>
+                            <li><a href="#">衣鞋雨帽</a>&nbsp;|&nbsp;</li>
+                            <li><a href="#">书籍教材</a>&nbsp;|&nbsp;</li>
+                            <li><a href="#">体育健身</a>&nbsp;|&nbsp;</li>
+                            <li><a href="#">乐器</a>&nbsp;|&nbsp;</li>
+                            <li><a href="#">自行设计</a>&nbsp;|&nbsp;</li>
+                            <li><a href="#">其他</a></li>
+                        </ul>
+                    </li>
+                    <li class="home-dialogmenu">
+                        <a href="release.html" class="click-navbgc">发布</a>
+                        <ul class="home-release">
+                            <li><a href="release.html">发布二手</a></li>
+                            <li><a href="releasebuy.html">发布求购</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">活动</a></li>
+                </ul>
+            </div>
+            <div class="home-searchbar">
+                <input type="text" class="home-searchinput">
+                <button class="home-searchbtn"></button>
+                <!-- <span class="login">
+                    <a href="#" class="home-login">登录</a>
+                    <span class="space">&nbsp;|&nbsp;</span>
+                    <a href="#" class="home-register">注册</a>
+                </span> -->
+                <span class="login-success">
+                    <a href="personalcenter.html" class="success">
+                        <img src="images/owneravatar.png" alt="">
+                    </a>
+                    <ul class="personalcenter">
+                        <li><a href="personalcenter.html">username</a></li>
+                        <hr color="#e8e8e8" size="1" width="100%">
+                        <li><a href="personalcenter.html">商品</a></li>
+                        <li><a href="personalcenter.html">账号设置</a></li>
+                        <li><a href="find.html">退出账号</a></li>
+                    </ul>
+                </span>
+            </div>
+        </div>
+    </header>
+    <section class="post">
+        <div class="post-content clearfix">
+            <div class="post-left">
+                <ul class="post-ul">
+                    <li><a href="release.html" class="post-secondhand">发布二手</a></li>
+                    <li><a href="releasebuy.html" class="post-release click-releasebgc">发布求购</a></li>
+                </ul>
+            </div>
+            <div class="post-right">
+                <div class="post-scondhand-detail">
+                    <div class="post-title">发布求购</div>
+                    <div class="post-detail">
+                        <div class="post-msg">求购信息</div>
+                        <hr color="#f6f6f6" size="2" width="100%">
+                        <form action=""  class="post-form">
+                            <table> 
+                                <tr><td><lable>.</lable><input type="text" placeholder="请输入标题"><lable>errormsg</lable></td></tr>
+                                <tr><td><lable>.</lable><input type="text" placeholder="请输入商品详情"><lable></lable></td></tr>
+                                <tr><td class="money"><lable>.</lable><input type="text" placeholder="请输入预期价格"><span class="money-logo">￥</span><lable></lable></td></tr>
+                                <tr><td><lable>.</lable><select class="select-postgoods">
+                                    <option>选择商品类型</option>
+                                    <option>代步工具</option>
+                                    <option>手机</option>
+                                    <option>电脑</option>
+                                    <option>数码</option>
+                                    <option>电脑</option>
+                                    <option>衣鞋雨帽</option>
+                                    <option>书籍教材</option>
+                                    <option>体育健身</option>
+                                    <option>乐器</option>
+                                    <option>自行设计</option>
+                                    <option>其他</option>                                    
+                                </select><lable></lable></td></tr>
+                                <tr><td><lable>.</lable><input type="text" placeholder="请输入手机号"><lable></lable></td></tr>
+                                <tr><td><lable>.</lable><input type="text" placeholder="请输入QQ"><lable></lable></td></tr>
+                                <tr><td><input type="submit" value="发布" class="submit-secondhand"></td></tr>
+                            </table>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="tao-footer home-footer">
+        <div class="footer-wrapper clearmargin">
+            <div class="footer-content">
+                <div>
+                    <p class="topic"><a href="#" >联系我们</a></p>
+                    <ul>
+                        <li><a href="#">QQ群:290338403</a></li>
+                        <li><a href="#">电话:17740812047</a></li>
+                        <li><a href="#">地址：四川师范大学成龙校区</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <p  class="topic"><a href="#">关于我们</a></p>
+                    <ul>
+                        <li><a href="#">我们的项目</a></li>
+                        <li><a href="#">我们的团队</a></li>
+                        <li><a href="#">企业协议</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <p  class="topic"><a href="#">问题</a></p>
+                    <ul>
+                        <li><a href="#">热线电话:020 - 29075715</a></li>
+                        <li><a href="#">反馈</a></li>
+                        <li><a href="#">用户协议</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li><a href="#"><img src="images/weixin-dark.png" alt="" class="weixin home-weixin"></a></li>
+                        <li><a href="#"><img src="images/weibo-dark.png" class="weibo home-weibo"/></a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr color=#383838 SIZE=1 width="100%">
+            <div>
+                <p  class="copyright">Copyright © 2019-2020 校园淘</p>
+            </div>
+        </div>        
+    </footer>
+</body>
+</html>

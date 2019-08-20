@@ -1,0 +1,314 @@
+body{
+    font: 14px/1.5 "PingFang SC", "Lantinghei SC", "Microsoft YaHei", "HanHei SC", "Helvetica Neue", "Open Sans", Arial, "Hiragino Sans GB", "微软雅黑", "STHeiti", "WenQuanYi Micro Hei", SimSun, sans-serif;
+    width: 1200px;
+    background: url(../login/bc.png) -150px  -50px no-repeat;
+}
+
+html, body, div, span, input, button, figure, i, h1, h2, h3, h4, h5, h6, em, img, strong, sub, sup, tt, dd, dl, dt, form, label, table, caption, tbody, tfoot, thead, tr, th, td, ul, ol, li, p, a {
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+div{
+    display: block;
+}
+
+.head{
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0 30px;
+}
+.head img{
+    height: 30px;
+    width: 170px;
+    margin: 50px 650px 0 675px;
+}
+
+.login {
+    width: 336px;
+    min-height: 400px;
+    background: #ffffff;
+    position: relative;
+    margin: 0 560px;
+    /* margin:0 auto; */
+    padding: 5px 32px;
+    box-shadow: 0px 1px 12px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.l-static, .module-l-static .static-l {
+    display: block;
+}
+.static-module-covers {
+    background: #ffffff;
+    position: relative;
+    z-index: 2;
+    margin-top: 45px;
+    padding-bottom: 8px;
+}
+input{
+    outline: none;
+}
+
+.pass-login-covers {
+    position: relative;
+}
+
+.ipt-default-current {
+    width: 336px;
+}
+.user{
+    margin-bottom: 20px;
+}
+.email{
+    margin-bottom: 20px;
+}
+.pwd{
+    margin-bottom: 20px;
+}
+.confirmpwd{
+    margin-bottom: 35px;
+}
+
+.text-style {
+    height: 42px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #666666;
+    font-size: 14px;
+    border: 1px solid #dddddd;
+    background: #f4f4f4;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.register-btn {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.register-btn input {
+    cursor: pointer;
+}
+.btn-current-big {
+    width: 336px;
+    height: 42px;
+    font-size: 16px;
+}
+.btn-disabled {
+    color: #bbbbbb;
+    background: #eeeeee;
+    border: 1px solid #eeeeee;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    cursor: default;
+}
+
+/* .loadding-btn {
+    cursor: default;
+}
+
+.btn-default-main {
+    color: #444444;
+    background: #def441;
+    border: 1px solid #def441;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+}
+.btn-default-main:hover {
+    color: #444444;
+    background: #d2e640;
+    border: 1px solid #d2e640;
+}
+.btn-default-main, .btn-default-secondary {
+    height: 42px;
+}
+
+.hide{
+    display: none;
+}
+
+.auto-login{
+    line-height: 14px;
+}
+ 
+/* 不记住密码设置 */
+.auto-login .auto-login-c {
+    margin-right: 10px;
+    background: url(../login/unckeckbox.png) no-repeat 0 2px;
+}
+/* 记住密码设置 */
+/* .auto-login .auto-login-cd {
+    background: url(../login/checkbox.png) no-repeat 0 2px;
+    margin-right: 12px;
+}
+
+.auto-login input {
+    vertical-align: middle;
+    opacity: 0;
+    margin-right: 8px;
+}
+input[type="checkbox"], input[type="radio"] {
+    box-sizing: border-box;
+    padding: 0;
+} 
+label {
+    cursor: default;
+}
+.login-links{
+    float: right;
+    color: #999999;
+}
+.a-auto:hover{
+    color: #333333;
+}
+
+.auto-login:after {
+    clear: both;
+}
+.auto-login:after {
+    content: "";
+    display: table;
+}
+
+.third-login-box {
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    right: 0;
+}
+.third-account {
+    text-align: center;
+    margin-bottom: 15px;
+    color: #999999;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.account-login {
+    text-align: center;
+}
+.account-login .wechat-login {
+    background-image: url(../login/weixin.png);
+}
+.account-login .wechat-login:hover{
+    background-color: #3bb04e;
+}
+.account-login .weibo-login {
+    background-image: url(../login/weibo.png);
+    margin: 0 20px;
+}
+.account-login .weibo-login:hover {
+    background-color: #e31d2d;
+}
+.account-login .qq-login {
+    background-image: url(../login/QQ.png);
+}
+.account-login .qq-login:hover {
+    background-color: #12a5e7;
+}
+.account-login .weibo-login, .account-login .wechat-login, .account-login .qq-login {
+    width: 42px;
+    height: 42px;
+    background-color: #dddddd;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.account-login a {
+    display: inline-block;
+}*/
+
+ul{
+    list-style: none;
+} 
+
+
+/* footer */
+.footer{
+    width:1020px;
+    height: 200px;
+    background: #282828;
+    position: relative;
+    bottom: 0;
+    color: #666;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 40px 250px 0 248px; 
+}
+
+.footer-content{
+    position: absolute;
+}
+
+.footer-content a{
+    color: #808080;
+}
+.footer-content a:hover{
+    color: #999999;
+}
+#line1{
+    float: left;
+    margin-right: 200px;
+}
+#line2{
+   float: left;
+   margin-right: 200px;
+}
+#line3{
+    float: left;
+    margin-right: 200px;
+}
+#line4{
+    float: left;
+    margin-right: 200px;
+    text-align: center;
+}
+#line4 a{
+    display: block;
+    height: 42px;
+    width: 42px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.line{
+    font-size: 12px;
+    padding-bottom: 5px;
+}
+.line-head{
+    padding-bottom: 10px;
+}
+.separator{
+    width:990px;
+    height: 1px;
+    background-color: #666666;
+    margin-top:140px;
+}
+.copyright{
+    margin-left:420px;
+}
+#weichat{
+    background: url(../login/weixin.png) no-repeat;
+}
+#weichat:hover{
+    background: url(../login/weixin-hover.png) no-repeat;
+}
+
+#weibo{
+    background: url(../login/weibo.png) no-repeat;
+}
+#weibo:hover{
+    background: url(../login/weibo-hover.png) no-repeat;
+}
+
